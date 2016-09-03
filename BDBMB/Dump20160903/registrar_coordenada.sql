@@ -1,0 +1,2 @@
+create procedure registrar_coordenada(in id_recor varchar(7), in id_user varchar(7), in hor_tom time(6), in lat float, in lon float, in alt float)
+	insert into coordenada(id_recor, id_user, hor_tom, lat, lon, alt) values ( id_recor, id_user, hor_tom, lat, lon, alt );
